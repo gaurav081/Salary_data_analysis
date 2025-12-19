@@ -1,0 +1,99 @@
+
+# 🧠 Software Professional Salaries Analysis - 2022
+
+## 📘 Project Overview
+
+The **Information Technology (IT)** industry in India is one of the largest in the world, comprising services such as consulting, outsourcing, and software development. As of **FY 2021**, the IT and BPM industry contributed **8% to India’s GDP**, generating **USD 194 billion** in revenue. Despite its success, the industry faces critical challenges such as **high attrition rates**, **workforce automation**, and concerns regarding the future of employment due to **AI-driven automation**.
+
+This project focuses on exploring and analyzing a dataset of **22,700+ software professionals** across India, containing detailed information about salaries, companies, locations, job roles, and more.
+
+---
+
+## 📊 Dataset Description
+
+**Dataset Name:** Software Professional Salaries - 2022
+
+This dataset provides a comprehensive view of compensation trends in the Indian software industry. It includes various attributes that help in understanding salary distributions, company ratings, and professional roles.
+
+### **Dataset Structure**
+
+```
+Software Professional Salaries - 2022
+├── Rating
+├── Company Name
+├── Job Title
+├── Salary (Indian Rupee - ₹)
+├── Salaries Reported
+├── Location
+├── Employment Status
+└── Job Roles
+```
+
+### **Key Features**
+
+* **Rating:** Company rating based on employee feedback.
+* **Company Name:** Name of the organization employing the professional.
+* **Job Title:** Designation or position held.
+* **Salary (₹):** Annual salary in Indian Rupees.
+* **Salaries Reported:** Number of employees who reported their salary for that company/role.
+* **Location:** City or region of employment.
+* **Employment Status:** Indicates if the professional is full-time, part-time, or on contract.
+* **Job Roles:** The functional role performed (e.g., Developer, Analyst, Manager, etc.).
+
+---
+
+## 🎯 Project Goals
+
+1. **Analyze** salary trends across companies, job titles, and locations.
+2. **Identify** correlations between company ratings and employee compensation.
+3. **Explore** the impact of employment status on salary levels.
+4. **Visualize** insights to understand disparities and patterns in the IT-BPM workforce.
+
+---
+
+## ⚙️ Tools & Technologies
+
+* **Python** – Data cleaning, analysis, and visualization
+* **Pandas & NumPy** – Data manipulation
+* **Matplotlib & Seaborn** – Data visualization
+* **Jupyter Notebook / VS Code** – Development environment
+
+---
+
+## 📈 Potential Insights
+
+* Average salary comparison across companies and roles
+* Location-wise salary distribution
+* Relationship between company rating and average salary
+* Trends in job roles and reporting patterns
+
+---
+
+## 🧩 Future Scope
+
+* Integrate **Machine Learning** to predict salaries based on company, role, and experience.
+* Perform **sentiment analysis** on company reviews if textual data is available.
+* Extend the dataset to include **experience level** and **education background** for deeper insights.
+
+---
+
+## 📁 Repository Structure
+
+```
+├── data/
+│   └── software_professionals_salaries_2022.csv
+├── notebooks/
+│   └── salary_analysis.ipynb
+├── scripts/
+│   └── data_cleaning.py
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## 👨‍💻 Author
+
+**Dikshit Suthar**
+Project: *Software Professional Salaries Analysis - 2022*
+
